@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "types": ["node", "vite/client"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src"]
+}
